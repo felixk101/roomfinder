@@ -50,7 +50,7 @@ function parseCalendarFiles() {
   //warning - filenames all end in .ics; they are not roomnumbers
   var addBookings = function(filenames) {
     var promise = new Promise(function(resolve, reject){
-      var successfulRoomQueries = 0;
+      var completedRooms = 0;
       filenames.forEach(filename => {
         var room_name = roomNameFromFileName(filename);
 
@@ -75,7 +75,7 @@ function parseCalendarFiles() {
             '\''+ (fecha.format(new Date(ev.end),'mysqlFormat')) + '\'' +
             ');'
           , function(err, results) {
-            if (err) throw err;
+            if (err) reject(err);
           });
         }
         db.query('select count(*) as amount from bookings where room_name = '+'\'' + room_name + '\'', function(err,results) {
@@ -85,11 +85,11 @@ function parseCalendarFiles() {
             reject('wrong number of bookings for '+room_name);
           } else {
             console.log('Added '+events.length+' bookings for '+room_name);
-          };
+            completedRooms ++;
+            if (completedRooms == filenames.length) resolve();
+          }
         });
-
       });
-
     });
     return promise;
   }
@@ -119,7 +119,9 @@ function parseCalendarFiles() {
     });
   });
   */
-  return readDirectory().then(addRooms).then(addBookings);
+  return readDirectory()
+    .then(addRooms)
+    .then(addBookings);
 }
 
 function getEmptyRooms(building, floor) {
@@ -201,13 +203,11 @@ function resetDB() {
   return dropTables().then(createTables);
 }
 
-resetDB()
-  .then(parseCalendarFiles)
-  .then(function () {
+resetDB().then(parseCalendarFiles).then(function () {
     db.query('select * from bookings',function(err,results) {
       if (err) throw err;
       console.log(results);
-    })
+    });
   })
   .catch( (reason) => {
     throw(reason);
