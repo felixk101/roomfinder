@@ -16,7 +16,7 @@ function parseCalendarFiles() {
     var promise = new Promise(function(resolve, reject){
       fs.readdir(dirname,(err,filenames) => {
         if(err) reject(err);
-        console.log('resolving the following filenames',filenames);
+        console.log('Resolving the following filenames',filenames);
         resolve(filenames);
       });
     });
@@ -63,9 +63,7 @@ function parseCalendarFiles() {
             events.push(data[k]);
           }
         }
-        console.log('Adding '+events.length+' bookings for '+room_name);
         for (var ev of events){
-          console.log('entering ev: ',ev)
           //room name check
           if (room_name != ev.location) throw new Error('Room name ('+room_name+') and ' +
             'ICS location name ('+ev.location+') are not matching.');
@@ -76,17 +74,19 @@ function parseCalendarFiles() {
             '\''+ (fecha.format(new Date(ev.start),'mysqlFormat')) + '\','+
             '\''+ (fecha.format(new Date(ev.end),'mysqlFormat')) + '\'' +
             ');'
-          ), function(err, results) {
+          , function(err, results) {
             if (err) throw err;
-            console.log(results[0].keys);
-          };
+          });
         }
-        db.query('select count(*) from bookings where room_name = '+'\'' + room_name + '\''), function(err,results) {
+        db.query('select count(*) as amount from bookings where room_name = '+'\'' + room_name + '\'', function(err,results) {
           if (err) reject(err);
-          if (events.length != results[0]) {
+          if (events.length != results[0].amount) {
+            console.log('expected '+events.length+' but only found '+results[0].amount+' for '+room_name);
             reject('wrong number of bookings for '+room_name);
-          }
-        }
+          } else {
+            console.log('Added '+events.length+' bookings for '+room_name);
+          };
+        });
 
       });
 
