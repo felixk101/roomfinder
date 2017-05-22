@@ -1,34 +1,29 @@
 var mysql      = require('promise-mysql');
+var instance;
 var connection;
 //'SELECT 1 + 1 AS solution'
 
 
-exports.connect = function () {
+instance = mysql.createConnection({
+  host: 'localhost',
+  user: 'roomfinder',
+  password: 'secret',
+  database: 'hsa'
+}).then(function (conn) {
+  connection = conn;
+}).catch(function(err) {
+  throw(err);
+});
 
-  mysql.createConnection({
-    host     : 'localhost',
-    user     : 'roomfinder',
-    password : 'secret',
-    database : 'hsa'
-  }).then(function(conn) {
-    connection = conn;
-    console.log('Connected to MYSQL DB on '+conn.config.host);
-    console.log('connection = '+connection);
-    return connection;
-  }).catch(function(err) {
-    throw(err);
-  });
-};
 
 exports.query = function (sqlString, callback)
 {
-  console.log('querys connection = '+connection);
   callback = callback || function(err,results) {
     if (err) throw err;
-    console.log(results);
+    //console.log('"'+sqlString+'" => \n',results);
   };
-  connection.then(function (nothing_WTF_IDONTKNOW) {
-    console.log('nothing_WTF = ',nothing_WTF_IDONTKNOW);
+
+  instance.then(function () {
     return connection.query(sqlString);
   }).then(function (results) {
     callback(null, results);
@@ -45,14 +40,16 @@ exports.query = function (sqlString, callback)
       return;
     }
     if (error) {
-      return('Error executing:',sqlString, error.toString().split('\n')[0]);
+      return('Error executing:',sqlString,
+      error.toString().split('\n')[0]);
       //throw error;
     }
 
     if (verbose && results) {
       console.log(sqlString);
       if (results.hasOwnProperty('affectedRows')) {
-        console.log('  '+(results.affectedRows) + ' rows affected.');
+        console.log('  '+(results.affectedRows)
+        + ' rows affected.');
       } else {
         console.log(' ',results);
       }
@@ -60,9 +57,9 @@ exports.query = function (sqlString, callback)
     */
 
 }
-exports.end = function ()
-{
+exports.end = function () {
   connection.end();
   console.log('DB connection severed!')
 }
+
 

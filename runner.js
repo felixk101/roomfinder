@@ -53,6 +53,7 @@ function parseCalendarFiles() {
       var successfulRoomQueries = 0;
       filenames.forEach(filename => {
         var room_name = roomNameFromFileName(filename);
+
         var successfulEventsetQueries = 0;
 
         var data = ical.parseFile(dirname + filename);
@@ -62,34 +63,33 @@ function parseCalendarFiles() {
             events.push(data[k]);
           }
         }
+        console.log('Adding '+events.length+' bookings for '+room_name);
         for (var ev of events){
-          fecha.masks.mysqlFormat = 'YYYY-MM-DD HH:mm:SS';
+          console.log('entering ev: ',ev)
+          //room name check
           if (room_name != ev.location) throw new Error('Room name ('+room_name+') and ' +
             'ICS location name ('+ev.location+') are not matching.');
+
+          fecha.masks.mysqlFormat = 'YYYY-MM-DD HH:mm:SS';
           db.query('insert into bookings (room_name,event_start,event_end) values (' +
             '\'' + room_name + '\',' +
             '\''+ (fecha.format(new Date(ev.start),'mysqlFormat')) + '\','+
             '\''+ (fecha.format(new Date(ev.end),'mysqlFormat')) + '\'' +
-            ');',
-            function(err,results) {
-              if(err) reject(err);
-              successfulEventsetQueries ++;
-              if (successfulEventsetQueries == events.length) {
-                successfulRoomQueries ++;
-                console.log('Done with this one; Waiting for '+(filenames.length-successfulRoomQueries)+' more room queries');
-                console.log('Felix, check what happens when a room has no bookings maybe? idk')
-
-              } else {
-                console.log('Waiting for '+(events.length-successfulEventsetQueries)+' more eventSet query results for '+room_name);
-              }
-              if (successfulRoomQueries == filenames.length) {
-                console.log('Finished registering bookings for room '+filename);
-                resolve();
-              }
-            }
-          );
+            ');'
+          ), function(err, results) {
+            if (err) throw err;
+            console.log(results[0].keys);
+          };
         }
+        db.query('select count(*) from bookings where room_name = '+'\'' + room_name + '\''), function(err,results) {
+          if (err) reject(err);
+          if (events.length != results[0]) {
+            reject('wrong number of bookings for '+room_name);
+          }
+        }
+
       });
+
     });
     return promise;
   }
@@ -203,6 +203,12 @@ function resetDB() {
 
 resetDB()
   .then(parseCalendarFiles)
+  .then(function () {
+    db.query('select * from bookings',function(err,results) {
+      if (err) throw err;
+      console.log(results);
+    })
+  })
   .catch( (reason) => {
     throw(reason);
     //console.log('Handle rejected promise ('+reason+') here.');
