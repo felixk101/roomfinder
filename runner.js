@@ -4,6 +4,7 @@ const db = require('./db.js');
 const ical = require('ical');
 const fecha = require('fecha');
 const parser = require('ical-date-parser');
+var request = require('request');
 
 
 function parseCalendarFiles() {
@@ -123,7 +124,6 @@ function parseCalendarFiles() {
     .then(addRooms)
     .then(addBookings);
 }
-
 function getEmptyRooms(building, floor) {
   let otherConditions = '';
   otherConditions += building? ' AND building =\''+building+'\' ' : '';
@@ -148,11 +148,9 @@ function getEmptyRooms(building, floor) {
   });
 
 }
-
 function getRoomInfo(building, floor) {
 
 }
-
 function resetDB() {
 
   var dropTables = function() {
@@ -203,6 +201,44 @@ function resetDB() {
   return dropTables().then(createTables);
 }
 
+
+
+var options = {
+  method: 'POST',
+  url: 'https://melpomene.webuntis.com/WebUntis/Timetable.do?request.preventCache=1496185210918',
+  headers: {
+    'Host': 'melpomene.webuntis.com',
+    'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'Accept': '*/*',
+    'Accept-Language': 'en-US,en;q=0.5',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Referer': 'https://melpomene.webuntis.com/WebUntis/?school=HS-Augsburg',
+    'Connection': 'keep-alive',
+    'Cookie': 'schoolname="_aHMtYXVnc2J1cmc="; JSESSIONID=3B49BD813C62C94F6BBE890790599D6C'
+  },
+  body: 'ajaxCommand=getWeeklyTimetable&elementType=4&elementId=32&date=20170531&filter.klasseId=-1&filter.klasseOrStudentgroupId=-1&filter.restypeId=-1&filter.buildingId=-1&filter.roomGroupId=-1&filter.departmentId=-1&formatId=7',
+
+};
+
+function callback(error, response, body) {
+  if (error) throw error;
+
+  console.log(response);
+  console.log('################################################################################################################################################')
+  console.log(body);
+  if (!error && response.statusCode == 200) {
+    var info = JSON.parse(body);
+    console.log();
+  }
+}
+
+console.log('doing request');
+request(options, callback);
+
+
+
+
+/*
 resetDB().then(parseCalendarFiles).then(function () {
     db.query('select * from bookings',function(err,results) {
       if (err) throw err;
@@ -213,6 +249,7 @@ resetDB().then(parseCalendarFiles).then(function () {
     throw(reason);
     //console.log('Handle rejected promise ('+reason+') here.');
   });
+*/
 
 //parseCalendarFiles();
 //getEmptyRooms('A');

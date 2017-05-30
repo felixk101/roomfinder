@@ -56,10 +56,10 @@ exports.query = function (sqlString, callback)
     }
     */
 
-}
+};
 exports.end = function () {
   connection.end();
   console.log('DB connection severed!')
-}
+};
 
 
