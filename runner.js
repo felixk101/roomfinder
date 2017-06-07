@@ -1,10 +1,12 @@
 const dirname = './cals/';
 const fs = require('fs');
 const db = require('./db.js');
+const utils = require('./utils.js');
 const ical = require('ical');
 const fecha = require('fecha');
 const parser = require('ical-date-parser');
-var request = require('request');
+const request = require('request');
+const dateFormat = require('dateformat');
 
 
 function parseCalendarFiles() {
@@ -201,14 +203,15 @@ function resetDB() {
   return dropTables().then(createTables);
 }
 
-
-
+//20170531
+var roomID = 74;
+var date = dateFormat(new Date(), 'yyyymmdd'); //today's date
 var options = {
   method: 'POST',
   url: 'https://melpomene.webuntis.com/WebUntis/Timetable.do?request.preventCache=1496185210918',
   headers: {
     'Host': 'melpomene.webuntis.com',
-    'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:53.0) Gecko/20100101 Firefox/53.0',
+    'User-Agent': 'Custom',
     'Accept': '*/*',
     'Accept-Language': 'en-US,en;q=0.5',
     'Content-Type': 'application/x-www-form-urlencoded',
@@ -216,8 +219,7 @@ var options = {
     'Connection': 'keep-alive',
     'Cookie': 'schoolname="_aHMtYXVnc2J1cmc="; JSESSIONID=3B49BD813C62C94F6BBE890790599D6C'
   },
-  body: 'ajaxCommand=getWeeklyTimetable&elementType=4&elementId=32&date=20170531&filter.klasseId=-1&filter.klasseOrStudentgroupId=-1&filter.restypeId=-1&filter.buildingId=-1&filter.roomGroupId=-1&filter.departmentId=-1&formatId=7',
-
+  body: 'ajaxCommand=getWeeklyTimetable&elementType=4&elementId='+roomID+'&date='+date+'&filter.klasseId=-1&filter.klasseOrStudentgroupId=-1&filter.restypeId=-1&filter.buildingId=-1&filter.roomGroupId=-1&filter.departmentId=-1&formatId=7',
 };
 
 function callback(error, response, body) {
@@ -228,7 +230,20 @@ function callback(error, response, body) {
   console.log(body);
   if (!error && response.statusCode == 200) {
     var info = JSON.parse(body);
-    console.log();
+    console.log(info);
+    //info.result.data.elementPeriods["74"]["0"].elements
+    //type 4 (0??): room (74)
+    //type 1: semester (2246) KD info.result.data.elements["12"]
+    //type 2: teacher (1138) Leyendecker Sascha info.result.data.elements["5"]
+    //type 3: subject or lesson (1878) Recht info.result.data.elements["11"]
+    let event = info.result.data.elementPeriods[roomID][0];
+    var theDay = 'On '+dateFormat(utils.parseUntisDate(event.date), "dddd, mmmm dS");
+    var theTime = ' from '+event.startTime+' until '+event.endTime;
+    var location =
+    console.log(theDay + theTime + ':' )
+
+    console.log(event1);
+
   }
 }
 

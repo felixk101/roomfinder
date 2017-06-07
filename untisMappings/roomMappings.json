@@ -1,0 +1,2392 @@
+[
+  {
+    "type": 4,
+    "id": 703,
+    "name": "A1.01a",
+    "longName": "A1.01a Seminar/Bespr.Raum AW 20",
+    "dids": [
+      1
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 136,
+    "name": "A1.02",
+    "longName": "A1.02 Seminarraum AW 20",
+    "dids": [
+      1
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 1,
+    "name": "A1.05",
+    "longName": "A1.05 Prakt. Chemie AW 108",
+    "dids": [
+      1
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 2,
+    "name": "A1.09",
+    "longName": "A1.09 Hörsaal Chemie  AW 110 S",
+    "dids": [
+      1
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 3,
+    "name": "A1.10",
+    "longName": "A1.10 Hörsaal Physik AW 54 S",
+    "dids": [
+      1
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 4,
+    "name": "A1.11",
+    "longName": "A1.11 Seminarraum AW 24",
+    "dids": [
+      1
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 28,
+    "name": "A1.12",
+    "longName": "A1.12 Lab.Leistungselektronik E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 29,
+    "name": "A1.14",
+    "longName": "A1.14 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 30,
+    "name": "A2.08",
+    "longName": "A2.08 Hörsaal M 110",
+    "dids": [
+      6
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 31,
+    "name": "A2.09",
+    "longName": "A2.09 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 16,
+    "name": "A2.10",
+    "longName": "A2.10 Seminarraum E 25",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 32,
+    "name": "A2.13",
+    "longName": "A2.13 Hörsaal M 81 S",
+    "dids": [
+      6
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 474,
+    "name": "A2.14",
+    "longName": "A2.14 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 17,
+    "name": "A2.15",
+    "longName": "A2.15 Hörsaal E 81S",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 18,
+    "name": "A2.16",
+    "longName": "A2.16 Seminarraum E 21",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 19,
+    "name": "A2.17",
+    "longName": "A2.17 Seminarraum E 21",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 393,
+    "name": "A2.18",
+    "longName": "A2.18 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 148,
+    "name": "A3.09",
+    "longName": "A3.09 Hörsaal M 105",
+    "dids": [
+      6
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 20,
+    "name": "A3.10",
+    "longName": "A3.10 Hörsaal E 78",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 21,
+    "name": "A3.13",
+    "longName": "A3.13 Seminarraum  35",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 22,
+    "name": "A3.14",
+    "longName": "A3.14 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 241,
+    "name": "A3.16 ",
+    "longName": "A3.16 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 33,
+    "name": "A3.17",
+    "longName": "A3.17 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 34,
+    "name": "A3.18",
+    "longName": "A3.18 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 23,
+    "name": "A3.19",
+    "longName": "A3.19 Hörsaal E 81S",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 35,
+    "name": "A3.20",
+    "longName": "A3.20 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 317,
+    "name": "A4.08",
+    "longName": "A4.08",
+    "dids": [
+      8
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 193,
+    "name": "A4.16",
+    "longName": "A4.16 Seminarraum VW 36",
+    "dids": [
+      8
+    ],
+    "buildingId": 1
+  },
+  {
+    "type": 4,
+    "id": 707,
+    "name": "AB-FR",
+    "longName": "Fakultät AB: Freiraum",
+    "dids": [
+      2
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 726,
+    "name": "Abfrage-Ansicht.",
+    "longName": "Abfrage-Ansicht.",
+    "dids": [
+      8
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 394,
+    "name": "AB-FREI",
+    "longName": "Freiraum AB",
+    "dids": [
+      2
+    ],
+    "buildingId": 14
+  },
+  {
+    "type": 4,
+    "id": 395,
+    "name": "AB-LAB",
+    "longName": "AB Labor",
+    "dids": [
+      2
+    ],
+    "buildingId": 14
+  },
+  {
+    "type": 4,
+    "id": 682,
+    "name": "AB-N.N.",
+    "longName": "Architekur & Bauwesen N.N.",
+    "dids": [
+      2
+    ],
+    "buildingId": 14
+  },
+  {
+    "type": 4,
+    "id": 422,
+    "name": "A-LAB",
+    "longName": "A-LAB",
+    "dids": [
+      2
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 742,
+    "name": "B0.09",
+    "longName": "B0.09 Prakt. Phys. AW",
+    "dids": [
+      1
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 672,
+    "name": "B1.01",
+    "longName": "B1.01 Büro AW",
+    "dids": [
+      1
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 673,
+    "name": "B1.02",
+    "longName": "B1.02 Büro AW",
+    "dids": [
+      1
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 5,
+    "name": "B1.14",
+    "longName": "B1.14 Prakt. Phys. AW",
+    "dids": [
+      1
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 364,
+    "name": "B1.15",
+    "longName": "B1.15 Prakt. Phys. Optik AW",
+    "dids": [
+      1
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 720,
+    "name": "B2.12",
+    "longName": "B2.12 Besprechungsraum",
+    "dids": [
+      12
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 6,
+    "name": "B2.14",
+    "longName": "B2.14 AEROTEC-Saal Physik AW 240 S",
+    "dids": [
+      1
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 137,
+    "name": "B2.21",
+    "longName": "B2.21 Foyer VW",
+    "dids": [
+      8
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 94,
+    "name": "B3.01",
+    "longName": "B3.01 Hörsaal M 50",
+    "dids": [
+      6
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 95,
+    "name": "B3.02",
+    "longName": "B3.02 Hörsaal M 50",
+    "dids": [
+      6
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 138,
+    "name": "B3.05",
+    "longName": "B3.05 Hörsaal VW 32",
+    "dids": [
+      12
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 139,
+    "name": "B3.06",
+    "longName": "B3.06 Seminarraum AW 16",
+    "dids": [
+      1
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 96,
+    "name": "B4.01",
+    "longName": "B4.01 Hörsaal M 60",
+    "dids": [
+      6
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 36,
+    "name": "B4.02",
+    "longName": "B4.02 Hörsaal M 60",
+    "dids": [
+      6
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 97,
+    "name": "B4.05",
+    "longName": "B4.05 Hörsaal M 80",
+    "dids": [
+      6
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 140,
+    "name": "B4.06",
+    "longName": "B4.06 Sitzungszimmer VW 14",
+    "dids": [
+      8
+    ],
+    "buildingId": 2
+  },
+  {
+    "type": 4,
+    "id": 582,
+    "name": "BIFA",
+    "longName": "BIFA",
+    "dids": [
+      6
+    ],
+    "buildingId": 14
+  },
+  {
+    "type": 4,
+    "id": 383,
+    "name": "B-LAB",
+    "longName": "B-LAB Baustofflabor AB",
+    "dids": [
+      2
+    ],
+    "buildingId": 14
+  },
+  {
+    "type": 4,
+    "id": 584,
+    "name": "C1.02",
+    "longName": "C1.02 Werkraum Modellbau",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 192,
+    "name": "C1.03",
+    "longName": "C1.03 AB Lichtlabor 0S",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 384,
+    "name": "C1.11",
+    "longName": "C1.11 Hörsaal AB 81S",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 404,
+    "name": "C1.12",
+    "longName": "C1.12 AB",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 385,
+    "name": "C1.13",
+    "longName": "C1.13 Seminarraum AB 45",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 386,
+    "name": "C1.14",
+    "longName": "C1.14 Hörsaal AB 72S",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 721,
+    "name": "C1.15",
+    "longName": "C1.15 Foyer/Vorraum VW",
+    "dids": [
+      8
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 387,
+    "name": "C1.20",
+    "longName": "C1.20 Seminarraum AB 45",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 484,
+    "name": "C1.22",
+    "longName": "C1.22 Alte Mensa",
+    "dids": [
+      8
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 741,
+    "name": "C1.23",
+    "longName": "C1.23 Studentenvertretung",
+    "dids": [
+      5
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 681,
+    "name": "C1.26",
+    "longName": "C1.26 Modellbau",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 714,
+    "name": "C1.2OG",
+    "longName": "C1.2OG Flur C-Bau 2. OG",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 716,
+    "name": "C1.3OG",
+    "longName": "C1.3OG Flur C-Bau 3. OG",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 410,
+    "name": "C2.06",
+    "longName": "C2.06 Besprechungsraum AB 15",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 732,
+    "name": "C2.07",
+    "longName": "C2.07 Büro",
+    "dids": [
+      2
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 733,
+    "name": "C2.08",
+    "longName": "C2.08 Büro",
+    "dids": [
+      2
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 388,
+    "name": "C2.20",
+    "longName": "C2.20 Seminarraum AB 45",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 284,
+    "name": "C2.22",
+    "longName": "C2.22 Baustoffsammlung AB",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 409,
+    "name": "C3.06",
+    "longName": "C3.06 Rechnerpool 20",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 389,
+    "name": "C3.10",
+    "longName": "C3.10 E2D-Labor",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 390,
+    "name": "C3.12",
+    "longName": "C3.12 Seminarraum AB 30",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 391,
+    "name": "C3.13",
+    "longName": "C3.13 Büro",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 370,
+    "name": "C3.20",
+    "longName": "C3.20 Seminarraum AB 30",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 702,
+    "name": "C4.06",
+    "longName": "C4.06 Seminarraum AB",
+    "dids": [
+      2
+    ],
+    "buildingId": 3
+  },
+  {
+    "type": 4,
+    "id": 490,
+    "name": "D0.15",
+    "longName": "D0.15 M Keller REGLA",
+    "dids": [
+      6
+    ],
+    "buildingId": 4
+  },
+  {
+    "type": 4,
+    "id": 610,
+    "name": "D0.16",
+    "longName": "D0.16 M Keller Energie",
+    "dids": [
+      6
+    ],
+    "buildingId": 4
+  },
+  {
+    "type": 4,
+    "id": 133,
+    "name": "D1.05",
+    "longName": "D1.05 M rechte Hallenseite;PAS;FZT",
+    "dids": [
+      6
+    ],
+    "buildingId": 4
+  },
+  {
+    "type": 4,
+    "id": 215,
+    "name": "D1.06",
+    "longName": "D1.06 M linke Hallenseite; VFT P; VEP ;Umw;PAS;Fossi",
+    "dids": [
+      6
+    ],
+    "buildingId": 4
+  },
+  {
+    "type": 4,
+    "id": 134,
+    "name": "D1.07",
+    "longName": "D1.07 PC Pool M 20",
+    "dids": [
+      6
+    ],
+    "buildingId": 4
+  },
+  {
+    "type": 4,
+    "id": 491,
+    "name": "D1.08",
+    "longName": "D1.08 Labor M 0",
+    "dids": [
+      6
+    ],
+    "buildingId": 4
+  },
+  {
+    "type": 4,
+    "id": 485,
+    "name": "D1.10",
+    "longName": "D1.10 Labor für Energie- und Verfahrenstechnik M 0",
+    "dids": [
+      6
+    ],
+    "buildingId": 4
+  },
+  {
+    "type": 4,
+    "id": 734,
+    "name": "D1.11",
+    "longName": "D1.11 Roboterlabor",
+    "dids": [
+      6
+    ],
+    "buildingId": 4
+  },
+  {
+    "type": 4,
+    "id": 731,
+    "name": "D1.17",
+    "longName": "D1.17 Windkanal",
+    "dids": [
+      6
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 717,
+    "name": "E1.01",
+    "longName": "E1.01 Smart Grid Labor",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 24,
+    "name": "E1.02",
+    "longName": "E1.02 LEW Hochsp.-saal E 77S",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 719,
+    "name": "E1.03",
+    "longName": "E1.03 Labor elektrische Maschinen",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 447,
+    "name": "E2.01",
+    "longName": "E2.01 Labor Regelungstechnik",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 448,
+    "name": "E2.06",
+    "longName": "E2.06 Labor Automatisierungstechnik",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 37,
+    "name": "E2.23",
+    "longName": "E2.23 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 406,
+    "name": "E3.01",
+    "longName": "E3.01 Lab. Messtechnik E",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 411,
+    "name": "E3.03",
+    "longName": "E3.03 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 366,
+    "name": "E3.06",
+    "longName": "E3.06 Hörsaal S 72 E",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 586,
+    "name": "E4.01",
+    "longName": "E4.01 CAD-Raum 15",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 367,
+    "name": "E4.02",
+    "longName": "E4.02 Hörsaal 70 E",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 473,
+    "name": "E4.03",
+    "longName": "E4.03 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 470,
+    "name": "E4.04",
+    "longName": "E4.04 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 368,
+    "name": "E4.06",
+    "longName": "E4.06 Hörsaal  63 E",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 449,
+    "name": "E5.01",
+    "longName": "E5.01 Labor Mikrocomputer-/Digitaltechnik",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 508,
+    "name": "E5.03",
+    "longName": "E5.03 Besprechungsraum E 10",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 472,
+    "name": "E5.07",
+    "longName": "E5.07 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 451,
+    "name": "E6.01",
+    "longName": "E6.01 Labor Hochfrequenz-/Nachrichtentechnik",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 759,
+    "name": "E6.02",
+    "longName": "E6.02",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 509,
+    "name": "E6.03",
+    "longName": "E6.03 Besprechungsraum E 12",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 452,
+    "name": "E6.04",
+    "longName": "E6.04 Labor Schaltungs-/Digitaltechnik",
+    "dids": [
+      3
+    ],
+    "buildingId": 5
+  },
+  {
+    "type": 4,
+    "id": 577,
+    "name": "E-TCW",
+    "longName": "TCW Nördlingen",
+    "dids": [
+      3
+    ],
+    "buildingId": 14
+  },
+  {
+    "type": 4,
+    "id": 453,
+    "name": "F1.01",
+    "longName": "F1.01 Werkstoffprüflabor M",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 454,
+    "name": "F1.02",
+    "longName": "F1.02 Faserverbundlabor M",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 760,
+    "name": "F1.07",
+    "longName": "F1.07 Labor",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 544,
+    "name": "F1.08",
+    "longName": "F1.08 Festigkeitslabor I M",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 740,
+    "name": "F1.09",
+    "longName": "F1.09 Verbrennungsmotorenlabor",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 747,
+    "name": "F1.12",
+    "longName": "F1.12 Rollenprüfstand",
+    "dids": [
+      6
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 545,
+    "name": "F1.14",
+    "longName": "F1.14 Schweißlabor M",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 455,
+    "name": "F2.01",
+    "longName": "F2.01 Akustiklabor M",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 670,
+    "name": "F2.02",
+    "longName": "F2.02 Akustiklabor M",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 709,
+    "name": "F2.06",
+    "longName": "F2.06 Festigkeitslabor M",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 373,
+    "name": "F2.07",
+    "longName": "F2.07 Seminarraum M 24",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 374,
+    "name": "F2.08",
+    "longName": "F2.08 Messtechniklabor M 16",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 375,
+    "name": "F2.09",
+    "longName": "F2.09 Messtechniklabor M 16",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 376,
+    "name": "F2.10",
+    "longName": "F2.10 Messtechniklabor M 16",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 377,
+    "name": "F2.13-2.14",
+    "longName": "F2.13-2.14 Seminarraum M 24",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 378,
+    "name": "F2.16",
+    "longName": "F2.16 Lageregelung M 16",
+    "dids": [
+      6
+    ],
+    "buildingId": 6
+  },
+  {
+    "type": 4,
+    "id": 11,
+    "name": "G1.10",
+    "longName": "G1.10 Hörsaal AB 140 S",
+    "dids": [
+      2
+    ],
+    "buildingId": 7
+  },
+  {
+    "type": 4,
+    "id": 12,
+    "name": "G1.12",
+    "longName": "G1.12 Hörsaal AB 70",
+    "dids": [
+      2
+    ],
+    "buildingId": 7
+  },
+  {
+    "type": 4,
+    "id": 715,
+    "name": "G1.EG",
+    "longName": "G1.EG Flur G-Bau EG",
+    "dids": [
+      2
+    ],
+    "buildingId": 7
+  },
+  {
+    "type": 4,
+    "id": 755,
+    "name": "G2.04",
+    "longName": "Büro",
+    "dids": [
+      2
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 40,
+    "name": "G2.09",
+    "longName": "G2.09 Labor I 30",
+    "dids": [
+      5
+    ],
+    "buildingId": 7
+  },
+  {
+    "type": 4,
+    "id": 70,
+    "name": "G2.15",
+    "longName": "G2.15 Labor",
+    "dids": [
+      5
+    ],
+    "buildingId": 7
+  },
+  {
+    "type": 4,
+    "id": 41,
+    "name": "G2.16",
+    "longName": "G2.16 Labor I 27",
+    "dids": [
+      5
+    ],
+    "buildingId": 7
+  },
+  {
+    "type": 4,
+    "id": 42,
+    "name": "G2.17",
+    "longName": "G2.17 Labor I 25",
+    "dids": [
+      5
+    ],
+    "buildingId": 7
+  },
+  {
+    "type": 4,
+    "id": 43,
+    "name": "G2.19",
+    "longName": "G2.19 Labor I 24",
+    "dids": [
+      5
+    ],
+    "buildingId": 7
+  },
+  {
+    "type": 4,
+    "id": 141,
+    "name": "H1.06",
+    "longName": "H1.06 Cafeteria VW",
+    "dids": [
+      8
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 7,
+    "name": "H1.19",
+    "longName": "H1.19 Seminarraum AW 24",
+    "dids": [
+      1
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 13,
+    "name": "H1.20",
+    "longName": "H1.20 Seminarraum AB 24",
+    "dids": [
+      2
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 14,
+    "name": "H1.21",
+    "longName": "H1.21 Seminarraum AB 24",
+    "dids": [
+      2
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 15,
+    "name": "H1.22",
+    "longName": "H1.22 Hörsaal E 80",
+    "dids": [
+      3
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 142,
+    "name": "H1.23",
+    "longName": "H1.23 Seminarraum VW 35",
+    "dids": [
+      8
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 25,
+    "name": "H1.28",
+    "longName": "H1.28 Hörsaal E 140S",
+    "dids": [
+      3
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 195,
+    "name": "H2.140",
+    "longName": "H2.140 Seminarraum AB 32",
+    "dids": [
+      2
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 194,
+    "name": "H2.141",
+    "longName": "H2.141 Seminarraum AB 16",
+    "dids": [
+      2
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 486,
+    "name": "H2.142",
+    "longName": "H2.142 Teeküche",
+    "dids": [
+      2
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 44,
+    "name": "H3.07",
+    "longName": "H3.07:Windows-PCs",
+    "dids": [
+      7
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 45,
+    "name": "H3.08",
+    "longName": "H3.08:PC-Pool RZ 24",
+    "dids": [
+      7
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 46,
+    "name": "H3.09",
+    "longName": "H3.09:View-Pool",
+    "dids": [
+      7
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 47,
+    "name": "H3.10",
+    "longName": "H3.10:PC Pool RZ 24",
+    "dids": [
+      7
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 48,
+    "name": "H3.13",
+    "longName": "H3.13:Apple RZ 20",
+    "dids": [
+      7
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 73,
+    "name": "H3.14",
+    "longName": "H3.14 PC-Pool RZ 12",
+    "dids": [
+      7
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 49,
+    "name": "H3.15",
+    "longName": "H3.15:PC-Pool RZ 30",
+    "dids": [
+      7
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 50,
+    "name": "H3.16",
+    "longName": "H3.16: PC-Pool RZ 24",
+    "dids": [
+      7
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 51,
+    "name": "H3.17",
+    "longName": "H3.17:PC-Pool RZ 30",
+    "dids": [
+      7
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 752,
+    "name": "H3.18",
+    "longName": "H3.18 Rechnerraum",
+    "dids": [
+      7
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 663,
+    "name": "H4.07",
+    "longName": "H4.07 Lab Mikroskopie E",
+    "dids": [
+      3
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 52,
+    "name": "H4.13",
+    "longName": "H4.13 Büro E",
+    "dids": [
+      3
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 26,
+    "name": "H4.14",
+    "longName": "H4.14 Seminarraum E 25",
+    "dids": [
+      3
+    ],
+    "buildingId": 8
+  },
+  {
+    "type": 4,
+    "id": 674,
+    "name": "J1.08",
+    "longName": "J1.08 Labor PPS | Prof. Dr. Erdlenbruch",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 701,
+    "name": "J1.15",
+    "longName": "J1.15 Lehrbeauftragtenzimmer",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 680,
+    "name": "J1.19",
+    "longName": "J1.19 Sitzungsraum | 30",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 746,
+    "name": "J1.20",
+    "longName": "J.120 Serviceraum",
+    "dids": [
+      5
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 55,
+    "name": "J2.01",
+    "longName": "J2.01 Labor I 15",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 688,
+    "name": "J2.05",
+    "longName": "J2.05 Uselab-I | Gerth, Herdin, Märtin",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 675,
+    "name": "J2.06",
+    "longName": "J2.06 Labor für EC, OR, KI und Wirtschaftsforschung | Gerth, Jahn, Märtin, Rist",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 676,
+    "name": "J2.13",
+    "longName": "J2.13 Medialab",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 588,
+    "name": "J2.18",
+    "longName": "J2.18 Hörsaal | 80",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 710,
+    "name": "J3.01",
+    "longName": "J3.01 Labor IP | Prof. Dr. Winter",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 705,
+    "name": "J3.02",
+    "longName": "J3.02 Labor Fablab | Prof. Dr. Högl",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 677,
+    "name": "J3.07",
+    "longName": "J3.07 Labor Robotik",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 686,
+    "name": "J3.18",
+    "longName": "J3.18 Büro I",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 587,
+    "name": "J3.19",
+    "longName": "J3.19 Hörsaal I 80",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 711,
+    "name": "J4.01",
+    "longName": "J4.01 Labor Distributed Systems Group / Prof. Dr. Schöler",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 678,
+    "name": "J4.06",
+    "longName": "J4.06 Seminarraum NODE | 14",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 679,
+    "name": "J4.13",
+    "longName": "J4.13 Seminarraum | 20",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 706,
+    "name": "J4.19",
+    "longName": "J4.19 Seminarraum I 36",
+    "dids": [
+      5
+    ],
+    "buildingId": 9
+  },
+  {
+    "type": 4,
+    "id": 131,
+    "name": "K1.01",
+    "longName": "K1.01 Previewraum G 40",
+    "dids": [
+      4
+    ],
+    "buildingId": 10
+  },
+  {
+    "type": 4,
+    "id": 546,
+    "name": "K1.06",
+    "longName": "K 1.06 Projektraum/Werkschau G 15",
+    "dids": [
+      4
+    ],
+    "buildingId": 10
+  },
+  {
+    "type": 4,
+    "id": 143,
+    "name": "K3.03",
+    "longName": "K3.03 Prinzessinnenzimmer VW 12",
+    "dids": [
+      8
+    ],
+    "buildingId": 10
+  },
+  {
+    "type": 4,
+    "id": 79,
+    "name": "L1.03",
+    "longName": "L1.03 Zeichensaal G 20",
+    "dids": [
+      4
+    ],
+    "buildingId": 11
+  },
+  {
+    "type": 4,
+    "id": 82,
+    "name": "L3.02",
+    "longName": "L3.02 Werkstatt Technik IA G 12",
+    "dids": [
+      4
+    ],
+    "buildingId": 11
+  },
+  {
+    "type": 4,
+    "id": 91,
+    "name": "L3.03",
+    "longName": "L3.03 Seminarraum",
+    "dids": [
+      4
+    ],
+    "buildingId": 11
+  },
+  {
+    "type": 4,
+    "id": 87,
+    "name": "L3.04",
+    "longName": "L3.04 Werkstatt Bewegtbild G 15",
+    "dids": [
+      4
+    ],
+    "buildingId": 11
+  },
+  {
+    "type": 4,
+    "id": 694,
+    "name": "LFU",
+    "longName": "Landesamt für Umweltschutz",
+    "dids": [
+      5
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 74,
+    "name": "M1.01",
+    "longName": "M1.01 Hörsaal I 140 S",
+    "dids": [
+      5
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 77,
+    "name": "M1.02",
+    "longName": "M1.02 Hörsaal I 140 S",
+    "dids": [
+      5
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 144,
+    "name": "M1.04",
+    "longName": "M1.04 Speisesaal VW",
+    "dids": [
+      8
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 145,
+    "name": "M1.53",
+    "longName": "M1.53 Foyer VW",
+    "dids": [
+      8
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 146,
+    "name": "M1.63",
+    "longName": "M1.63 Windfang VW",
+    "dids": [
+      8
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 62,
+    "name": "M2.02",
+    "longName": "M2.02 Labor I 20",
+    "dids": [
+      5
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 71,
+    "name": "M2.03",
+    "longName": "M2.03 Labor I 24",
+    "dids": [
+      5
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 85,
+    "name": "M2.10",
+    "longName": "M2.10 Zeichensaal G 20",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 80,
+    "name": "M2.11",
+    "longName": "M2.11 Werkstatt Typografie G 20",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 210,
+    "name": "M2.12",
+    "longName": "M2.12 Master DKS G 15",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 75,
+    "name": "M3.02",
+    "longName": "M3.02 Zeichensaal G 25",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 76,
+    "name": "M3.03",
+    "longName": "M3.03 Werkstatt DTP G 20",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 203,
+    "name": "M3.09a",
+    "longName": "M3.09a Werkstatt I&M G 20",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 205,
+    "name": "M3.09b",
+    "longName": "M3.09b Werkstatt Infodesign G 20",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 202,
+    "name": "M3.11a",
+    "longName": "M3.11a Werkstatt Grafikdesign G 20",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 206,
+    "name": "M3.11b",
+    "longName": "M3.11b Werkstatt Schrift G 20",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 208,
+    "name": "M3.12",
+    "longName": "M3.12 Werkstatt Werbung G 15",
+    "dids": [
+      4
+    ],
+    "buildingId": 12
+  },
+  {
+    "type": 4,
+    "id": 494,
+    "name": "M-SWLAB",
+    "longName": "SCHWEIßLABOR",
+    "dids": [
+      6
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 583,
+    "name": "M-TCW",
+    "longName": "TCW Nördlingen",
+    "dids": [
+      6
+    ],
+    "buildingId": 14
+  },
+  {
+    "type": 4,
+    "id": 534,
+    "name": "NN",
+    "longName": "NN",
+    "dids": [
+      4
+    ],
+    "buildingId": 14
+  },
+  {
+    "type": 4,
+    "id": 743,
+    "name": "P3.01",
+    "longName": "P3.01 Seminarraum VW 30",
+    "dids": [
+      8
+    ],
+    "buildingId": 15
+  },
+  {
+    "type": 4,
+    "id": 744,
+    "name": "P3.02",
+    "longName": "P3.02 Seminarraum VW 30",
+    "dids": [
+      8
+    ],
+    "buildingId": 15
+  },
+  {
+    "type": 4,
+    "id": 722,
+    "name": "P3.03",
+    "longName": "P3.03 Proj/Lab VW 42",
+    "dids": [
+      8
+    ],
+    "buildingId": 15
+  },
+  {
+    "type": 4,
+    "id": 723,
+    "name": "P3.04 ",
+    "longName": "P3.04  Proj/Lab VW 45",
+    "dids": [
+      8
+    ],
+    "buildingId": 15
+  },
+  {
+    "type": 4,
+    "id": 757,
+    "name": "P3.16",
+    "longName": "P3.16 Seminarraum VW 30",
+    "dids": [
+      8
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 735,
+    "name": "TCW",
+    "longName": "Nördlingen",
+    "dids": [
+      3
+    ],
+    "buildingId": 0
+  },
+  {
+    "type": 4,
+    "id": 429,
+    "name": "W1.01",
+    "longName": "W1.01 Seminarraum 60 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 430,
+    "name": "W1.03",
+    "longName": "W1.03 Seminarraum 50 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 431,
+    "name": "W1.04",
+    "longName": "W1.04 Seminarraum 60 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 432,
+    "name": "W1.05",
+    "longName": "W1.05 Seminarraum 45 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 433,
+    "name": "W1.06",
+    "longName": "W1.06 Hörsaal 100 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 434,
+    "name": "W1.08",
+    "longName": "W1.08 Logistiklabor 20 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 435,
+    "name": "W1.09",
+    "longName": "W1.09 Seminarraum 60 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 436,
+    "name": "W1.10",
+    "longName": "W1.10 Seminarraum 20 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 437,
+    "name": "W1.19",
+    "longName": "W1.19 Seminarraum 70 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 438,
+    "name": "W2.10",
+    "longName": "W2.10 Hörsaal 140 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 439,
+    "name": "W2.11",
+    "longName": "W2.11 Seminarraum 40 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 440,
+    "name": "W2.13",
+    "longName": "W2.13 Seminarraum 20 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 441,
+    "name": "W2.14",
+    "longName": "W2.14 Hörsaal 140 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 446,
+    "name": "W2.27",
+    "longName": "W2.27 Seminarraum 30 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 476,
+    "name": "W3.01",
+    "longName": "W3.01 Hörsaal I 49 OV",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 477,
+    "name": "W3.02",
+    "longName": "W3.02 Hörsaal I 77 OV",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 478,
+    "name": "W3.03",
+    "longName": "W3.03 Hörsaal I 74 OV SB",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 479,
+    "name": "W3.05",
+    "longName": "W3.05 Hörsaal I 35 OV",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 483,
+    "name": "W3.06",
+    "longName": "W3.06 Beprechungsraum W 10",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 689,
+    "name": "W3.13",
+    "longName": "W3.13 Projektraum",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 480,
+    "name": "W3.14",
+    "longName": "W3.14 Projektraum",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 457,
+    "name": "W3.15",
+    "longName": "W3.15 Hörsaal I 38 SB",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 456,
+    "name": "W3.16",
+    "longName": "W3.16 Hörsaal I 38 SB",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 481,
+    "name": "W3.17",
+    "longName": "W3.17 Labor",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 458,
+    "name": "W3.18",
+    "longName": "W3.18 Labor",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 442,
+    "name": "W3.20",
+    "longName": "W3.20 Hörsaal 90 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 475,
+    "name": "W3.21",
+    "longName": "W3.21 Hörsaal I 59 OV",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 482,
+    "name": "W3.22",
+    "longName": "W3.22 Hörsaal I 73 OV",
+    "dids": [
+      5
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 443,
+    "name": "W4.02",
+    "longName": "W4.02 Computerraum 20 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 444,
+    "name": "W4.03",
+    "longName": "W4.03 Computerraum 46 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 445,
+    "name": "W4.04",
+    "longName": "W4.04 Computerraum 10 W",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  },
+  {
+    "type": 4,
+    "id": 573,
+    "name": "W4.06",
+    "longName": "W4.06 Besprechungsraum W 20",
+    "dids": [
+      9
+    ],
+    "buildingId": 13
+  }
+]
