@@ -7,7 +7,7 @@ var connection;
 instance = mysql.createConnection({
   host: 'localhost',
   user: 'roomfinder',
-  password: 'secret',
+  password: 'secretpw',
   database: 'hsa'
 }).then(function (conn) {
   connection = conn;
